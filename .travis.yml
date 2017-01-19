@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: AqKHYKBz/92mzsMW9wpwk7+lFo73VRAYKgMbsvp99/NRkuvd+FW9bchh2qL0aTtvIdUdDGTypxZUgSZrG6MGGF6d8+0I+f+oAuT+e/F5dZJOc47+xr4ML7Q4WgHpkhBMLBbj+gGfGt/Hc3xJ4xJ/xbs0MHbNc6e8kg839a/9ancMU2xNSl37oS9wJs1JJu4s1ytyL0rXVdt15RSoFlvJoUWFHCReh5AlfjwAC66zD+asPBehgylcmfeS2utCbIR2KDtRDW+yxsXvekJYZ781BMUpF9SMQkxCE9Wc93Psa59DoRrlz5gDyGgvZBaQZdJHfJNY9tabD9IspjP2dhS1iBJyK03WssagU6QQqVDYk2BumiX0tDX84KiQ3W1HXkKkPY5lu/R92IdOMujttbCIcO6S8bDm9paGxP60wQnRYeqH1eB3EnKwR+8KiHSZEJWhBrWCD7tOqaFvPze+3nv2gyb4igOvo1sc4eoEbvSXkj3tVrWaA1NR6dDs4Ll6f3tTjnumArHrYV5v5hCXmmtj0pPaC8X5VY/w9DkM0n5tNylV0TWiVXQVKmMeLFNeWOYaCvqG4GptrgLe8q/ZduOAlfrTISDGMOmuD35G91OdO5qEiue4Fzg9xrmMAp0GbdUWXRlizjEc3JMGibbthzVqP01Ix/pYN3MoOxLr/jmDSME=
+  app: lit-falls-90574
+  on:
+    repo: StreakInTheSky/node-shopping-list-integration-tests-1
